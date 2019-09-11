@@ -34,7 +34,7 @@ Knobs is an amazing resource for designers and developers to experiment and play
 First, we will need to install all the necessary dependencies.
 
 ```bash
-yarn add @storybook/addon-knobs
+yarn add @storybook/addon-actions @storybook/addon-knobs
 ```
 
 Register Knobs in your `.storybook/addons.js` file.
@@ -44,7 +44,6 @@ Register Knobs in your `.storybook/addons.js` file.
 
 import '@storybook/addon-actions/register';
 import '@storybook/addon-knobs/register';
-import '@storybook/addon-links/register';
 ```
 
 <div class="aside">
